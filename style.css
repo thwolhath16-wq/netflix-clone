@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url("images/header-image.png.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Navbar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.sign-in {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Content */
+.content {
+    text-align: center;
+    margin-top: 150px;
+    padding: 0 20px;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content h2 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.content p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Email Box */
+.email-box {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.email-box input {
+    padding: 15px;
+    font-size: 16px;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+
+.email-box button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
